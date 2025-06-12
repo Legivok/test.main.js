@@ -15,7 +15,7 @@ const standartConfig = {
   },
   binds: {
     menu: "Numpad0",
-    mines: "KeyM",
+    mines: "Numpad5",
     supplies: "Semicolon"
   }
 };
