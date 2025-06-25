@@ -1,6 +1,10 @@
-// ⛔ Teljesen kikapcsolja a script működését, ha nincs más feltétel
-console.log("[Better+] Script is DISABLED by default return");
-return;
+(function main() {
+  const SCRIPT_ENABLED = false;
+
+  if (!SCRIPT_ENABLED) {
+    console.log("[Better+] Script is disabled.");
+    return;
+  }
 
 const standartConfig = {
   supplies: {
