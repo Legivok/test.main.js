@@ -1,3 +1,7 @@
+const script = document.createElement("script");
+script.src = "https://raw.githubusercontent.com/Legivok/test.main.js/main/test.js?nocache=" + Date.now();
+document.body.appendChild(script);
+
 <button onclick="reloadWithSound()">Reload with sound</button>
 
 <script>
