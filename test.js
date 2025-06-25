@@ -1,3 +1,5 @@
+console.log("Better+ ki van kapcsolva.");
+
 /*const standartConfig = {
   supplies: {
     delay: 50,
