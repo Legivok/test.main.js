@@ -1,11 +1,3 @@
-(function main() {
-  const SCRIPT_ENABLED = false;
-
-  if (!SCRIPT_ENABLED) {
-    console.log("[Better+] Script is disabled.");
-    return;
-  }
-
 const standartConfig = {
   supplies: {
     delay: 50,
@@ -405,5 +397,4 @@ document.addEventListener("mousemove", ({ clientX, clientY }) => {
 
 document.addEventListener("mouseup", () => {
   isDraggingBind = false;
-}
-)})();
+});
