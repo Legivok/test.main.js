@@ -1,5 +1,5 @@
 // ----- SCRIPT KIKAPCSOLÓ KAPCSOLÓ -----
-const SCRIPT_ENABLED = true; // 🟥 állítsd false-ra a kikapcsoláshoz
+const SCRIPT_ENABLED = false; // 🟥 állítsd false-ra a kikapcsoláshoz
 
 if (!SCRIPT_ENABLED) {
   console.log("[Better+] Script is disabled.");
