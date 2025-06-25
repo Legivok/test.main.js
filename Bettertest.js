@@ -1,6 +1,4 @@
-console.log("Better+ ki van kapcsolva.");
-
-/*const standartConfig = {
+const standartConfig = {
   supplies: {
     delay: 50,
     multiply: 1,
@@ -400,4 +398,3 @@ document.addEventListener("mousemove", ({ clientX, clientY }) => {
 document.addEventListener("mouseup", () => {
   isDraggingBind = false;
 });
-*/
