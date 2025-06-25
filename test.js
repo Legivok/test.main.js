@@ -1,3 +1,11 @@
+// ----- SCRIPT KIKAPCSOLÓ KAPCSOLÓ -----
+const SCRIPT_ENABLED = false; // 🟥 állítsd false-ra a kikapcsoláshoz
+
+if (!SCRIPT_ENABLED) {
+  console.log("[Better+] Script is disabled.");
+  return;
+}
+
 const standartConfig = {
   supplies: {
     delay: 50,
